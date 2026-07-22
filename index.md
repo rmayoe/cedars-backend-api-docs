@@ -23,14 +23,14 @@ explanation of the feature — read that first to understand what you are buildi
 
 | # | Doc | Feature |
 | - | --- | ------- |
-| 1 | [01-catch-up-past-service.md](./01-catch-up-past-service.md) | Past Service / Catch Up — weekly missed-content feed + history |
-| 2 | [02-book-of-the-month.md](./02-book-of-the-month.md) | Book of the Month — featured book, detail, read, recommendations |
-| 3 | [03-streaming-sermons.md](./03-streaming-sermons.md) | Streaming / Sermons — live, campuses, ministers, sermon player |
-| 4 | [04-notes.md](./04-notes.md) | Notes — user CRUD, sermon-attached, favourites, recently deleted |
-| 5 | [05-explore-events.md](./05-explore-events.md) | Explore / Events — curated hub + all-events list |
-| 6 | [06-testimonies.md](./06-testimonies.md) | Testimonies — public feed + user submission (moderated) |
-| 7 | [07-birthdays.md](./07-birthdays.md) | Birthdays — today/upcoming list + send a wish |
-| 8 | [08-discover-search.md](./08-discover-search.md) | Discover / Search — curated hub + unified cross-content search |
+| 1 | [catch-up-past-service.md](./catch-up-past-service.md) | Past Service / Catch Up — weekly missed-content feed + history |
+| 2 | [book-of-the-month.md](./book-of-the-month.md) | Book of the Month — featured book, detail, read, recommendations |
+| 3 | [streaming-sermons.md](./streaming-sermons.md) | Streaming / Sermons — live, campuses, ministers, sermon player |
+| 4 | [notes.md](./notes.md) | Notes — user CRUD, sermon-attached, favourites, recently deleted |
+| 5 | [explore-events.md](./explore-events.md) | Explore / Events — curated hub + all-events list |
+| 6 | [testimonies.md](./testimonies.md) | Testimonies — public feed + user submission (moderated) |
+| 7 | [birthdays.md](./birthdays.md) | Birthdays — today/upcoming list + send a wish |
+| 8 | [discover-search.md](./discover-search.md) | Discover / Search — curated hub + unified cross-content search |
 
 ## All endpoints at a glance
 
