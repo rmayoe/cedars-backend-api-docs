@@ -3,7 +3,7 @@ title: Discover & Search
 nav_order: 10
 ---
 
-# 08 — Discover & Search
+# Discover & Search
 
 Discover & Search is the app's global discovery hub combined with a single unified search
 that spans every kind of content the app holds — ministers, sermons, notes, testimonies,

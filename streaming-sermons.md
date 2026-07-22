@@ -3,7 +3,7 @@ title: Streaming & Sermons
 nav_order: 5
 ---
 
-# 03 — Streaming & Sermons
+# Streaming & Sermons
 
 The Stream tab is where people watch and listen to church services and sermons. It is the
 largest feature in the app. When a service is being broadcast, the tab shows it live; the
