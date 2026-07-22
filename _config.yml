@@ -1,0 +1,31 @@
+title: Cedars / HOG — Backend API Docs
+description: >-
+  Backend APIs the Cedars/HOG mobile app needs but does not yet have,
+  derived from the product designs. One doc per feature.
+
+# just-the-docs gives a left sidebar, search, and navigation between the docs.
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Rewrite the relative ./*.md links in README/cross-references to their built pages.
+relative_links:
+  enabled: true
+  collections: false
+
+# just-the-docs options
+search_enabled: true
+heading_anchors: true
+color_scheme: dark
+aux_links:
+  "View on GitHub":
+    - "https://github.com/mayor04/cedars-backend-api-docs"
+
+# Files Jekyll should not treat as content.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

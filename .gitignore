@@ -1,0 +1,10 @@
+# Jekyll / GitHub Pages local build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+vendor/
+
+# OS
+.DS_Store
