@@ -38,6 +38,7 @@ Grouped by feature. `Bearer` = requires auth; `Optional` = works signed-out but
 personalises when authed; **Required** = user-scoped. See each doc for full detail.
 
 ### Catch Up
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/catch-up/current` | Current-week feed (cards + Play) |
@@ -46,6 +47,7 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | POST | `/catch-up/items/{id}/progress` | Persist watched / resume state |
 
 ### Book of the Month
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/books/current` | Current month's featured book |
@@ -57,6 +59,7 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | POST | `/books/{id}/reaction` | Like / thumbs-up |
 
 ### Streaming / Sermons
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/stream/live` | Live status + featured stream & campus |
@@ -69,12 +72,14 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | PUT | `/sermons/{id}/progress` | Upsert playback progress |
 
 ### Notes
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET · POST | `/notes` | List (filter/search) / create |
 | GET · PATCH · DELETE | `/notes/{id}` | Read / update / soft-delete |
 
 ### Explore / Events
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/explore` | Aggregated hub feed (ordered sections) |
@@ -82,6 +87,7 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | POST · DELETE | `/events/{id}/rsvp` | RSVP / cancel — **provisional** (no CTA in current design) |
 
 ### Testimonies
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/testimonies` · `/testimonies/{id}` | Approved feed / detail |
@@ -90,6 +96,7 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | POST · DELETE | `/testimonies/{id}/reactions` | React / unreact *(optional)* |
 
 ### Birthdays
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/birthdays` | Members with birthdays, grouped today/upcoming (`?scope`,`?campusId`) |
@@ -97,6 +104,7 @@ personalises when authed; **Required** = user-scoped. See each doc for full deta
 | POST · GET | `/birthdays/{memberId}/wishes` | Send / list wishes |
 
 ### Discover / Search
+
 | Method | Path | Description |
 | ------ | ---- | ----------- |
 | GET | `/discover` | Curated hub (trending, categories, suggestions) |
